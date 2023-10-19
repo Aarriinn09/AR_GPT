@@ -1,6 +1,6 @@
 // const { response } = require("express");
 
-const key = "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";
+const key = "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";
 
 const submitbutton = document.querySelector("#submit");
 const outputEl = document.querySelector("#output");
