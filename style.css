@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  color: white;
+  font-family: "Poppins";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b6b5b5;
+  display: flex;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 200px 0;
+}
+
+.side_bar {
+  /* #202123 */
+  background-color: #343541;
+  width: 244px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 11px;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input {
+  border: none;
+  color: #343541;
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  background-color: ffffff;
+  width: 100%;
+  margin-bottom: 3px;
+  font-size: 20px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(250, 248, 248, 0.05) 0 54px 55px,
+    rgba(0, 0, 0, 0.05) 0 -12px 30px, rgba(0, 0, 0, 0.05) 0 4px 6px,
+    rgba(0, 0, 0, 0.05) 0 12px 3px, rgba(255, 255, 255, 0.05) 0 -3px 5px;
+}
+input :focus {
+  outline: none;
+}
+
+.bottom_sect {
+  width: 100%;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_container {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+}
+
+.input_container #submit {
+  position: absolute;
+  font-size: 25px;
+  right: 0;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+button {
+  border: solid 0.5px rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+nav {
+  border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  margin: 10px;
+}
+nav p {
+  margin-left: 29px;
+}
+
+.history {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.history p {
+  cursor: pointer;
+}
+
+#submit {
+  color: #343541;
+}
+
+/* .img_svg {
+  size: 40px;
+} */
